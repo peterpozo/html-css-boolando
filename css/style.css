@@ -51,13 +51,119 @@ header{
 
 /* Products section  */
 
-.box-container{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1.5rem;
+main{
+    z-index: 0;
 }
 
-.box-container .box{
-    flex: 1 1 30rem;
+.container-main{
+    padding-bottom: 130px;
+    width: 1500px;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 120px;
+}
+
+.container-prodotti{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+}
+
+.container-img{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    width: calc(90% / 3);
     position: relative;
 }
+
+.prezzo2{
+    color: black;
+    text-decoration: line-through;
+}
+
+span{
+    z-index: 4;
+}
+
+.img-static{
+    z-index: 1;
+}
+
+.imgb{
+    position: absolute;
+    z-index: 3;
+    opacity: 0%; 
+    width:100%;   
+}
+
+.imgb:hover{
+    opacity: 100%;
+    
+}
+
+.march-product{
+    color: gray;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.name-product{
+    color: black;
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.product-price{
+    color: red;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.sconto{
+    position: absolute;
+    background-color: red;
+    top: 585px;
+    padding: 7px 16px;
+    color: white;
+    font-weight: 700;
+}
+
+.cuoricino{
+    position: absolute;
+    background-color: white;
+    right: 0;
+    top: 15px;
+    padding: 5px 18px;
+    color: black;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.cuoricino:hover{
+    color: red;
+}
+
+.sostenibilità{
+    position: absolute;
+    background-color: green;
+    top: 585px;
+    left: 75px;
+    padding: 7px 16px;
+    color: white;
+    font-weight: 700;
+}
+
+#sostenibilità2{
+    position: absolute;
+    background-color: green;
+    top: 585px;
+    left: 0px;
+    padding: 7px 16px;
+    color: white;
+    font-weight: 700;
+}
+
+

@@ -15,6 +15,10 @@ header{
     align-items: center;
     padding: 20px 10%;
     box-shadow: 0 4px 2px -2px gray;
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    left: 0;
 }
 
 .logo{
@@ -43,4 +47,17 @@ header{
 .pulsanti a{
     color: white;
     padding: 0 2px;
+}
+
+/* Products section  */
+
+.box-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.box-container .box{
+    flex: 1 1 30rem;
+    position: relative;
 }
